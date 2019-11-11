@@ -21,7 +21,7 @@ public class Address {
      * @param zipcode - zipcode of region
      */
     public Address(String addressLine1, String addressLine2, String city, String state, String zipcode) {
-        String.format("%s, "+"%s, "+"%s, "+ "%s, "+"%s", addressLine1,addressLine2, city,state, zipcode);
+        String.format("addressLine1=%s, "+" addressLine2=%s, "+" city=%s, "+ " state=%s, "+" zipcode=%s", addressLine1,addressLine2, city,state, zipcode);
     }
 
     public String getAddressLine1() {
