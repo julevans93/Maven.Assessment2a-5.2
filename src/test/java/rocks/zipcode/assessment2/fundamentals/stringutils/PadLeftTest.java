@@ -20,6 +20,7 @@ public class PadLeftTest {
 
         // Then
         Assert.assertEquals(expected, actual);
+
     }
 
     @Test
